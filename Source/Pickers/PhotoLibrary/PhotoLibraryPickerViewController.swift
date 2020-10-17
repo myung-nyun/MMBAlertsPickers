@@ -189,8 +189,9 @@ final public class PhotoLibraryPickerViewController: UIViewController {
             }
             alert.show()
         case .limited:
-            
+            break;
         @unknown default:
+            break;
             
             
         }
