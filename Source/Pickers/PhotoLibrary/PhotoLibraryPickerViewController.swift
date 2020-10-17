@@ -188,6 +188,11 @@ final public class PhotoLibraryPickerViewController: UIViewController {
                 self.alertController?.dismiss(animated: true)
             }
             alert.show()
+        case .limited:
+            
+        @unknown default:
+            
+            
         }
     }
     
